@@ -1,0 +1,8 @@
+@scope (custom-hello)
+{
+    :scope
+    {
+        font-size: 2rem;
+        color: red;
+    }
+}
