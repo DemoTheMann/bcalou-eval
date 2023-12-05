@@ -1,0 +1,11 @@
+@scope (custom-hello-blue-new)
+{
+    :scope
+    {
+        font-size: 2rem;
+        color: blue;
+        div {
+            color: gray;
+        }
+    }
+}

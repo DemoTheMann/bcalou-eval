@@ -3,23 +3,50 @@
         <title>CSS nesting & scoped styles</title>
         <link rel="stylesheet" href="/assets/css/reset.css">
         <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="assets/elements/element.js" defer></script>
+        <script src ="assets/js/main.js" defer></script>
     </head>
-
+    
     <body>
+        
+        <header>
+            <h1>CSS nesting & scoped styles</h1>
+            <h2>Utilisez l'intérupteur pour changer le CSS</h2>
+            <!-- Rounded switch -->
+            <label class="switch">
+                <input type="checkbox" id="switch_elements" checked>
+                <span class="slider round"></span>
+            </label>
+        </header>
 
-        <custom-hello></custom-hello>
+        <section id="content">
+
+            <div>
+                <p>purple</p>
+                <p class="green">green</p>
+            </div>
+    
+            <section id="elements">
+                <script src="assets/elements/custom-hello-red-new.js" defer></script>
+                <script src="assets/elements/custom-hello-blue-new.js" defer></script>
+                <script src="assets/elements/custom-hello-red-old.js" defer></script>
+                <script src="assets/elements/custom-hello-blue-old.js" defer></script>
+    
+    
+    
+            </section>
+            
+            
+            <!-- <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="yLGWGbO" data-user="DemoTheMann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/DemoTheMann/pen/yLGWGbO">
+                when Scope</a> by DemoTheMann (<a href="https://codepen.io/DemoTheMann">@DemoTheMann</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> -->
+    
+
+        </section>
 
         
-        
-        
-        <!-- <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="yLGWGbO" data-user="DemoTheMann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-            <span>See the Pen <a href="https://codepen.io/DemoTheMann/pen/yLGWGbO">
-            when Scope</a> by DemoTheMann (<a href="https://codepen.io/DemoTheMann">@DemoTheMann</a>)
-            on <a href="https://codepen.io">CodePen</a>.</span>
-          </p>
-          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> -->
-
     </body>
 
 </html>
