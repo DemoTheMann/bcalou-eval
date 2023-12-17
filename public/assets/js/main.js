@@ -2,12 +2,14 @@
     function () {
         const APP = {
 
+            UAParser: require('ua-parser-js'),
             _switch: document.querySelector('#switch_elements'),
             _elements: document.querySelector('#elements'),
 
             init: () => {
                 APP.handlers();
                 APP.defaultState();
+                alert(navigator.userAgent);
             },
 
             handlers: () => {

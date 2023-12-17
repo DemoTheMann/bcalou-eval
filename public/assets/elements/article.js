@@ -1,4 +1,4 @@
-class CustomHelloBlueNew extends HTMLElement
+class CustomArticle extends HTMLElement
 {
     connectedCallback()
     {
@@ -15,4 +15,4 @@ class CustomHelloBlueNew extends HTMLElement
     }
 }
 
-customElements.define('custom-hello-blue-new', CustomHelloBlueNew);
+customElements.define('custom-article', CustomArticle);
