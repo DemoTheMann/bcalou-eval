@@ -4,9 +4,9 @@ class CustomHelloBlueOld extends HTMLElement
     {
         this.html=
         `
-        <link rel="stylesheet" href="/assets/css/custom-hello-blue-old.css">
-        <p class="blue">Hello in BLUE</p>
-        <div class="grey">
+        <link rel="stylesheet" href="./assets/css/custom-hello-blue-old.css">
+        <p>Hello in BLUE</p>
+        <div>
             <p>this text should be gray</p>
         </div>
         `;

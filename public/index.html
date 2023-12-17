@@ -1,10 +1,10 @@
 <html>
     <head>
         <title>CSS nesting & scoped styles</title>
-        <link rel="stylesheet" href="/assets/css/reset.css">
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src ="assets/js/main.js" defer></script>
-        <link rel="manifest" href="manifest.json" />
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script src ="./assets/js/main.js" defer></script>
+        <link rel="manifest" href="./manifest.json" />
     </head>
     
     <body>
@@ -21,28 +21,22 @@
 
         <section id="content">
 
-            <div>
-                <p>purple</p>
-                <p class="green">green</p>
-            </div>
-    
-            <section id="elements">
-                <script src="assets/elements/custom-hello-red-new.js" defer></script>
-                <script src="assets/elements/custom-hello-blue-new.js" defer></script>
-                <script src="assets/elements/custom-hello-red-old.js" defer></script>
-                <script src="assets/elements/custom-hello-blue-old.js" defer></script>
-    
-    
+            <h2 class="warning">Attention, ces fonctionalitées CSS ne fonctionnent en parallèles que sur les versions expérimentales de Google Chrome</h2>
+
+            <p></p>
+
+            <section id="articles">
+                <script src="./assets/elements/article-new.js" defer></script>
+                <script src="./assets/elements/content-new.js" defer></script>
     
             </section>
-            
-            
-            <!-- <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="yLGWGbO" data-user="DemoTheMann" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                <span>See the Pen <a href="https://codepen.io/DemoTheMann/pen/yLGWGbO">
-                when Scope</a> by DemoTheMann (<a href="https://codepen.io/DemoTheMann">@DemoTheMann</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-              </p>
-              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> -->
+
+            <section id="css-preview">
+                <script src="./assets/elements/article-new-css.js" defer></script>
+                <script src="./assets/elements/content-new-css.js" defer></script>
+                
+
+            </section>
     
 
         </section>

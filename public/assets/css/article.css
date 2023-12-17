@@ -1,0 +1,10 @@
+@scope (.capsule) {
+    :scope {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    p {
+        margin: 0.5rem
+    }
+}

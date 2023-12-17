@@ -2,14 +2,17 @@
     function () {
         const APP = {
 
-            UAParser: require('ua-parser-js'),
             _switch: document.querySelector('#switch_elements'),
-            _elements: document.querySelector('#elements'),
+            _elements: document.querySelector('#articles'),
+            _cssPreview: document.querySelector('#css-preview'),
 
             init: () => {
+                // UAParser = require('ua-parser-js');
                 APP.handlers();
                 APP.defaultState();
-                alert(navigator.userAgent);
+                if(CSS.supports('@scope')){
+                    alert(navigator.userAgent);
+                }
             },
 
             handlers: () => {
@@ -19,8 +22,8 @@
             defaultState: () => {
                 html = 
                 `
-                <custom-hello-red-new>
-                </custom-hello-red-new>
+                <custom-article>
+                </custom-article>
                 `
 
                 APP._elements.innerHTML = html;
@@ -30,14 +33,13 @@
                 if(APP._switch.checked){
                     html = 
                     `
-                    <custom-hello-red-new>
-                    </custom-hello-red-new>
+                    <custom-article>
+                    </custom-article>
                     `
                 } else {
                     html = 
                     `
-                    <custom-hello-red-old>
-                    </custom-hello-red-old>
+                    
                     `
                 };
 

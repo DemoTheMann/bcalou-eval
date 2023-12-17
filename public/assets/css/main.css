@@ -78,17 +78,32 @@ header {
     justify-content: space-between;
     align-items: center;
     h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
 @scope (#content) {
     :scope {
-        margin-top: 12vh;
-        padding: 1rem;
+      margin-top: 12vh;
+      padding: 1rem;
+      width: 100vw;
+      height: 75vh;
+      font-size: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .warning {
+      color: red;
+      width: 100%;
+      text-align: center;
+    }
+    #articles {
+      width: 100vw;
     }
 }

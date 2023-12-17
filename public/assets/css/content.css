@@ -1,0 +1,14 @@
+@scope (.capsule) {
+    :scope {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    p {
+        margin: 0.5rem;
+    }
+    img {
+        align-self: center;
+        margin: 1rem
+    }
+}

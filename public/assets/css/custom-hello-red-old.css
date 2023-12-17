@@ -1,7 +1,8 @@
 custom-hello-red-old {
     color: red;
+    font-size: 2rem;
 }
-.green {
+custom-hello-red-old > div {
     color: green;
 }
 

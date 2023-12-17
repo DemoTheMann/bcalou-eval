@@ -4,7 +4,7 @@ class CustomHelloBlueNew extends HTMLElement
     {
         this.html=
         `
-        <link rel="stylesheet" href="/assets/css/custom-hello-blue-new.css">
+        <link rel="stylesheet" href="./assets/css/custom-hello-blue-new.css">
         <p>Hello in BLUE</p>
         <div>
             <p>this text should be grey</p>

@@ -1,6 +1,7 @@
 custom-hello-blue-old {
     color: blue;
+    font-size: 2rem;
 }
-.grey {
+custom-hello-blue-old > div {
     color: gray;
 }

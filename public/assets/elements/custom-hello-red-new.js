@@ -4,7 +4,7 @@ class CustomHelloRedNew extends HTMLElement
     {
         this.html=
         `
-        <link rel="stylesheet" href="/assets/css/custom-hello-red-new.css">
+        <link rel="stylesheet" href="./assets/css/custom-hello-red-new.css">
         <p>Hello in RED</p>
         <div>
             <p>this text should be green</p>
