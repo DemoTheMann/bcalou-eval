@@ -1,0 +1,16 @@
+.content__capsule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content__capsule p {
+    margin: 0.5rem;
+    color: black;
+}
+.content__capsule img {
+    align-self: center;
+    margin: 1rem
+}
+.content__capsule span {
+    color: blue;
+}

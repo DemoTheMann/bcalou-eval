@@ -1,0 +1,12 @@
+.article__capsule {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.article__capsule h1 {
+    color: red;
+}
+.article__capsule p {
+    margin: 0.5rem;
+    color: gray;
+}

@@ -68,6 +68,7 @@ body {
 
 header {
     position: fixed;
+    background-color: white;
     top: 0;
     height: 10vh;
     width: 100vw;
@@ -86,17 +87,20 @@ header {
     }
 }
 
-@scope (#content) {
+@scope (#content) to (#css-preview p) {
     :scope {
       margin-top: 12vh;
       padding: 1rem;
       width: 100vw;
-      height: 75vh;
       font-size: 3rem;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
+    }
+    p {
+      text-align: center;
+      margin: 1rem;
     }
     .warning {
       color: red;
@@ -104,6 +108,19 @@ header {
       text-align: center;
     }
     #articles {
-      width: 100vw;
+      padding: 1rem;
+      width: 80vw;
+      border-radius: 1rem;
+      box-shadow: 0px 0px 5px black;
+      margin: 2rem
     }
+    #css-preview {
+      padding: 1rem;
+      width: 80vw;
+      border-radius: 1rem;
+      box-shadow: 0px 0px 5px black;
+      background-color: lightgray;
+      margin: 2rem;
+    }
+    
 }

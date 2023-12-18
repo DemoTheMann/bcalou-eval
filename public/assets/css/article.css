@@ -1,10 +1,14 @@
-@scope (.capsule) {
-    :scope {
+@scope (custom-article) {
+    .capsule {
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-    p {
-        margin: 0.5rem
+        h1 {
+            color: red;
+        }
+        p {
+            margin: 0.5rem;
+            color: gray;
+        }
     }
 }

@@ -1,14 +1,18 @@
-@scope (.capsule) {
-    :scope {
+@scope (custom-content) {
+    .capsule {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-    p {
-        margin: 0.5rem;
-    }
-    img {
-        align-self: center;
-        margin: 1rem
+        p {
+            margin: 0.5rem;
+            color: black;
+        }
+        img {
+            align-self: center;
+            margin: 1rem
+        }
+        span {
+            color: blue;
+        }
     }
 }

@@ -6,7 +6,7 @@ class CustomArticle extends HTMLElement
         `
             <link rel="stylesheet" href="./assets/css/article.css">
         <section class="capsule">
-            <h1 class="title">Titre de l'article en rouge<h1>
+            <h1>Titre de l'article en rouge</h1>
             <p>Description de l'article en gris</p>
             <div class="content">
                 <custom-content>
